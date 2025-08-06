@@ -1,0 +1,68 @@
+
+/* Dark theme style for portfolio */
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #9e9e9e;
+}
+
+.bio, .projects, .contact {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects h2,
+.contact h2 {
+  color: #bb86fc;
+  margin-bottom: 1rem;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-left: 4px solid #bb86fc;
+  border-radius: 5px;
+}
+
+a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f1f1f;
+  color: #666;
+}
